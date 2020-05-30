@@ -1,0 +1,174 @@
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+p{
+  color:#8f8f8f;
+  font-weight:400;
+}
+
+
+/* sections */
+
+.colored-section{
+  color:#fff;
+  background-color: #ff4c68;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Title */
+
+#title .container-fluid{
+  padding:3% 15%;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+
+
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-style: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature {
+  margin-bottom: 15%;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 10%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+.cta-button {
+  margin: 1% 2%;
+}
+
+footer {
+  font-family: "Montserrat";
+}
+
+.socialMedia-icon {
+  color: black;
+  padding: 3% 3%;
+}
+
+@media (max-width:762px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}

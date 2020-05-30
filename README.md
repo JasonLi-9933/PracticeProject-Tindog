@@ -1,2 +1,1 @@
-# PracticeProject-Tindog
-A practice project.
+TinDog Starting Files
